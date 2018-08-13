@@ -1,0 +1,193 @@
+body
+{
+    margin: 10;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #F1F5F8;
+    height: 100vh;
+    background-color: #CCC;
+}
+
+#page
+{
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    background-color: rgb(70, 133, 206);
+}
+
+#header
+{
+    height: 111px;
+    padding: 1em;
+    background-color: rgb(40, 46, 83);
+}
+
+#header h1
+{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: #f6f6f6;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#header h2
+{
+position: absolute;
+margin-top: -10px;
+margin-left: 30px;
+color: #F6F6F6;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+}
+
+#main
+{
+    padding: 1em;
+    overflow: hidden;
+}
+
+.article
+{
+    padding: 50px;
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px 10px 20px;
+    overflow: hidden;
+    background: linear-gradient(rgb(50, 102, 180), rgb(41, 85, 151), rgb(41, 85, 151));
+    transition: 0.2s;
+}
+
+.article:hover
+{
+    transform: scale(1.2);
+}
+
+.article h1
+{
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(40, 46, 83);
+}
+
+.article p
+{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.article .leftPos
+{
+    float: left;
+    padding-left: 10px;
+    padding-right: 20px;
+    transition: 0.2s;
+}
+
+.article .leftPos:hover
+{
+    transform: scale(1.1);
+}
+
+.article .rightPos
+{
+    float: right;
+    padding-left: 20px;
+    padding-right: 10px;
+    transition: 0.2s;
+}
+
+.article .rightPos:hover
+{
+    transform: scale(1.1);
+}
+
+#nav
+{
+    height: 55px;
+    line-height: 55px;
+    padding: 0 20px;
+    background: linear-gradient(rgb(41, 85, 151), rgb(40, 46, 83));
+}
+
+#nav:hover
+{
+    background: linear-gradient(rgb(70, 133, 206), rgb(41, 85, 151), rgb(40, 46, 83));
+}
+
+#nav .link
+{
+    float: left;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.link
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FBFDFB;
+    transition: 0.2s;
+}
+
+#nav .link:hover
+{
+    transform: scale(2);
+}
+
+#sideNav
+{
+    float:left;
+    width: 120px;
+    padding: 1em;
+    background: linear-gradient(to bottom right, rgb(50, 102, 180), rgb(21, 55, 111));
+}
+
+#sideNav:hover
+{
+    background: linear-gradient(to bottom right, rgb(70, 133, 206), rgb(50, 102, 180), rgb(21, 55, 111));
+}
+
+#sideNav ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#sideNav li
+{
+    text-align: center;
+    margin: 0px 20px 30px 0px;
+    transition: 0.2s;
+}
+
+#sideNav li:hover
+{
+    transform: scale(2);
+}
+
+#footer
+{
+    height: 30px;
+    padding-top: 5px;
+    background-color: rgb(40, 46, 83);
+    text-align: center;
+    font-size: 10px;
+    color: #CCC;
+}

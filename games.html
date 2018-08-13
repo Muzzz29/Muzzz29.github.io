@@ -1,19 +1,94 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Corn Dog Games - Games</title>
-        <link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-        <img src="images/corn-dog.PNG" alt="Corn Dog" style="float:left;width:80px;height:80px;">
-		<h1>Corn Dog Games</h1>
-		<h8>  <a href="index.html" target="_self">| Home |</a>
-			<a href="games.html" target="_self">| Games |</a>
-			<a href="about.html" target="_self">| About |</a>  </h8>
+        <title>Lachlan Murray | Games</title>
+        <link rel = "stylesheet" href = "css/styles.css" type = "text/css" media = "screen">
+    </head>
 
-        <h2>Made by Corn Dog Games:</h2>
-        	<p>  <strong>-</strong> <a href="games/tanks.html" target="_self">Tanks Student Project</a>  </p>
-			<p>  <strong>-</strong> <a href="games/asteroids.html" target="_self">WIP Asteroids Game</a>  </p>
-			<p>  <strong>-</strong> <a href="games/party-game.html" target="_self">Not Yet Started Party Game (Collab)</a>  </p>
-	</body>
+    <body>
+        <div id = "page">
+            <div id = "header">
+                <h1>
+                    Lachlan Murray
+                </h1>
+
+                <h2>
+                    Games I've Worked On
+                </h2>
+            </div>
+
+            <div id = "nav">
+                <a href = "index.html" class = "link">Portfolio</a>
+                <a href = "games.html" class = "link">Games</a>
+                <a href = "about.html" class = "link">About</a>
+            </div>
+
+            <div id = "sideNav">
+                <ul>
+                    <li>
+                        <a href = "#article1" class = "link">Game 1</a>
+                    </li>
+    
+                    <li>
+                        <a href = "#article2" class = "link">Game 2</a>
+                    </li>
+    
+                    <li>
+                        <a href = "#article3" class = "link">Game 3</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id = "main">
+                <a name="article1"></a>
+                <div class = "article">
+                    <h1>
+                        Party Mayhem
+                    </h1>
+                    
+                    <img class = "rightPos" src = "images/party.PNG" width = "200" height = "200">
+                    
+                    <p>
+                        Currently being worked on by group.
+                    </p>
+                </div>
+                
+                <a name="article2"></a>
+                <div class = "article">
+                    <h1>Blast: Asteroids</h1>
+                    <img class = "leftPos" src = "images/blastAsteroidsLogo.png" width = "200" height = "200">
+                    <p>
+                        Blast: Asteroids is a 2D Bullet Hell game where you start
+                        with no movement at all but as you progress you gain more
+                        control over your ship.
+                    </p>
+
+                    <a href = "https://www.dropbox.com/s/kc97xhcdcepwhp0/Blast%20-%20Asteroids%20alpha%20build.rar?dl=0"
+                    class = "link" target = "_blank">Download Link</a>
+                </div>
+
+                <a name="article3"></a>
+                <div class = "article">
+                    <h1>
+                        Early Platformer Project
+                    </h1>
+
+                    <img class = "rightPos" src = "images/platformer.PNG" width = "200" height = "200">
+                    
+                    <p>
+                        This is a game I was working on before learning how to use
+                        Unity and C#. I used Game Maker Studio but didn't get super
+                        far with it.
+                    </p>
+
+                    <a href = "https://www.dropbox.com/s/jpswrfis3tp8l5p/Platformer.rar?dl=0"
+                    class = "link" target = "_blank">Download Link</a>
+                </div>
+            </div>
+
+            <div id = "footer">
+                <p>Corn Dog Games 2018&copy;</p>
+            </div>
+        </div>
+    </body>
 </html>
